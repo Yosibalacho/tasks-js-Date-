@@ -73,12 +73,10 @@
 // userAgeAbove18();
 
 function userLoction() {
-    var userDate=new Date(prompt("Enter date"))
-   
+    var userDate = Date()
+    return userDate;
 }
-userLoction();
-
-
+userLoction()
 
 
 
